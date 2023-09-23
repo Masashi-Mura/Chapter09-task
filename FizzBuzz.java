@@ -10,16 +10,16 @@ public class FizzBuzz{
 
         for (int i = 1; i < num + 1; i++) {
             String str = "";
-            if(i%3 == 0) {         //3‚ÅŠ„‚èØ‚ê‚é
+            if (i % 3 == 0) {		//3‚ÅŠ„‚èØ‚ê‚é
                 str = "Fizz";
             }
-            if(i%5 == 0) {         //5‚ÅŠ„‚èØ‚ê‚é
+            if (i % 5 == 0) {		//5‚ÅŠ„‚èØ‚ê‚é
                 str = str + "Buzz";
             }
-            if(str.isEmpty()) {     //3‚Æ5‚ÅŠ„‚èØ‚ê‚È‚¢
+            if (str.isEmpty()) {	//3‚Æ5‚ÅŠ„‚èØ‚ê‚È‚¢
                 str = Integer.toString(i);
             }
             System.out.print(str + " ");    //Œ‹‰Êo—Í
-        }
-    }
+		}
+	}
 }
